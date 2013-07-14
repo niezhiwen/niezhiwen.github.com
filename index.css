@@ -1,4 +1,5 @@
 *{margin:0px; padding:0px;}
+
 body {
 	font-size:12px;
 	font-family:Verdana, Geneva, sans-serif;
@@ -6,7 +7,7 @@ body {
 }
 .box {
 	width: 1002px;
-	margin-top: 10px;
+	margin-top: 2px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -17,6 +18,9 @@ body {
 .head {
 	height: 100px;
 	width: 1002px;
+	background-image: url(images/hebg.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
 }
 
 .logo {
@@ -26,7 +30,7 @@ body {
 	float: left;
 	margin-top: 26px;
 	margin-left: 10px;
-	color: #000;
+	color: #006;
 }
 .number {
 	font-size: 16px;
@@ -34,14 +38,15 @@ body {
 	float: left;
 	width: 200px;
 	margin-top: 40px;
-	color: #000;
+	color: #006;
 }
 .xin {
 	float: right;
 	margin-top: 43px;
 }
 .banneer {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 .zhengwen {
@@ -63,13 +68,32 @@ body {
 	background-repeat: no-repeat;
 	height: 29px;
 }
+.qwe {
+	float: left;
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.qwe .asd {
+	color: #000;
+	float: left;
+	margin-left: 85px;
+}
+
+
+
+.qwe a {
+	color: #000;
+}
+.qwe a:hover {
+	color: #06F;
+}
+
+
 a {
 	color: #FFF;
 	text-decoration: none;
-}
-.guanyu span a:hover {
-	color: #06F;
-	text-decoration: underline;
 }
 h2 {
 	float: left;
@@ -77,6 +101,11 @@ h2 {
 	margin-left: 35px;
 	color: #FFF;
 }
+.guanyu span a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+
 
 
 span {
@@ -103,14 +132,6 @@ span {
 	color: #060;
 	font-size: 16px;
 }
-.xinwen .more {
-	margin-right: 0px;
-	margin-top: 10px;
-	font-size: 10px;
-}
-.xinwen .more a {
-	color: #06F;
-}
 
 
 
@@ -133,6 +154,17 @@ span {
 	text-decoration: none;
 	color: #333;
 }
+.xinwen .more {
+	float: right;
+	margin-right: 0px;
+	margin-top: 10px;
+	font-size: 10px;
+}
+.xinwen .more a {
+	color: #06F;
+	text-decoration: none;
+}
+
 .news ul li a:hover {
 	color: #090;
 }
@@ -157,4 +189,43 @@ span {
 	color: #FFF;
 	text-align: center;
 	line-height: 1.7em;
+}
+
+
+
+/*内页css*/
+.ca {
+	width: 990px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-top-width: 3px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+.ca p {
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+.ca h1 {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+.cen {
+	text-align: center;
+}
+
+
+.ca p img {
+	margin-top: 6px;
+	margin-right: 15px;
+}
+.news ul .aa {
+	list-style-type: none;
 }
