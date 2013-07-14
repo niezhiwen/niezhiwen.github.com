@@ -1,0 +1,160 @@
+*{margin:0px; padding:0px;}
+body {
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #333;
+}
+.box {
+	width: 1002px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+.head {
+	height: 100px;
+	width: 1002px;
+}
+
+.logo {
+	font-size: 36px;
+	font-weight: bolder;
+	width: 420px;
+	float: left;
+	margin-top: 26px;
+	margin-left: 10px;
+	color: #000;
+}
+.number {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	width: 200px;
+	margin-top: 40px;
+	color: #000;
+}
+.xin {
+	float: right;
+	margin-top: 43px;
+}
+.banneer {
+	margin-bottom: 10px;
+}
+
+.zhengwen {
+	width: 700px;
+	float: left;
+}
+.zhengwen p {
+	line-height: 2.2em;
+	letter-spacing: 2px;
+	text-indent: 2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 700px;
+	overflow: hidden;
+}
+
+.guanyu {
+	background-image: url(images/guanyu.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+.guanyu span a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+h2 {
+	float: left;
+	margin-top: 4px;
+	margin-left: 35px;
+	color: #FFF;
+}
+
+
+span {
+	float: right;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+.news {
+	float: right;
+	width: 290px;
+}
+.xinwen {
+	background-image: url(images/bbg.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+	margin-bottom: 10px;
+}
+
+
+ h3 {
+	float: left;
+	margin-top: 7px;
+	margin-left: 17px;
+	color: #060;
+	font-size: 16px;
+}
+.xinwen .more {
+	margin-right: 0px;
+	margin-top: 10px;
+	font-size: 10px;
+}
+.xinwen .more a {
+	color: #06F;
+}
+
+
+
+.news ul li {
+	height: 30px;
+	width: 280px;
+	list-style-type: disc;
+	overflow: hidden;
+	white-space:nowrap;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	line-height: 2.1em;
+	letter-spacing: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	list-style-position: inside;
+}
+.news ul li a {
+	text-decoration: none;
+	color: #333;
+}
+.news ul li a:hover {
+	color: #090;
+}
+
+.white {
+	height: 30px;
+	background-color: #FFF;
+	clear: both;
+}
+
+
+
+
+.footer {
+	height: 45px;
+	width: 1002px;
+	background-image: url(images/foobg.jpg);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	color: #FFF;
+	text-align: center;
+	line-height: 1.7em;
+}
