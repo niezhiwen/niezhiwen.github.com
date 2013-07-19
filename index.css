@@ -4,6 +4,8 @@ body {
 	font-size:12px;
 	font-family:Verdana, Geneva, sans-serif;
 	color: #333;
+	background-image: url(images/bg-1.jpg);
+	background-repeat: repeat-x;
 }
 .box {
 	width: 1002px;
@@ -52,6 +54,7 @@ body {
 .zhengwen {
 	width: 700px;
 	float: left;
+	height: 200px;
 }
 .zhengwen p {
 	line-height: 2.2em;
@@ -68,29 +71,57 @@ body {
 	background-repeat: no-repeat;
 	height: 29px;
 }
+
+.anli {
+	background-image: url(images/anli.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+}
+
+.bb {
+	width: 1002px;
+	clear: both;
+}
+
 .qwe {
 	float: left;
-	height: 230px;
-	width: 200px;
-	margin-left: 25px;
+	height: 260px;
+	width: 232px;
 	margin-top: 15px;
+	margin-right: 24px;
+}
+.qa {
+	float: left;
+	height: 260px;
+	width: 234px;
+	margin-top: 15px;
+	margin-right: 0px;
 }
 .qwe .asd {
 	color: #000;
 	float: left;
-	margin-left: 85px;
+	margin-left: 100px;
+}
+.qa .asd {
+	color: #000;
+	float: left;
+	margin-left: 100px;
 }
 
 
-
 .qwe a {
+	color: #000;
+}
+.qa a {
 	color: #000;
 }
 .qwe a:hover {
 	color: #06F;
 }
 
-
+.qa a:hover {
+	color: #06F;
+}
 a {
 	color: #FFF;
 	text-decoration: none;
@@ -116,6 +147,8 @@ span {
 .news {
 	float: right;
 	width: 290px;
+	height: 200px;
+	margin-bottom: 15px;
 }
 .xinwen {
 	background-image: url(images/bbg.jpg);
@@ -228,4 +261,8 @@ span {
 }
 .news ul .aa {
 	list-style-type: none;
+}
+ul .aa img {
+	vertical-align: middle;
+	padding-bottom: 4px;
 }
