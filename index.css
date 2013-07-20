@@ -5,7 +5,7 @@ body {
 	font-family:Verdana, Geneva, sans-serif;
 	color: #333;
 	background-image: url(images/bg-1.jpg);
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 }
 .box {
 	width: 1002px;
@@ -20,18 +20,15 @@ body {
 .head {
 	height: 100px;
 	width: 1002px;
-	background-image: url(images/hebg.jpg);
-	background-repeat: no-repeat;
-	background-position: left;
 }
 
 .logo {
 	font-size: 36px;
 	font-weight: bolder;
-	width: 420px;
+	width: 300px;
 	float: left;
 	margin-top: 26px;
-	margin-left: 10px;
+	margin-left: 200px;
 	color: #30F;
 }
 .number {
@@ -238,7 +235,7 @@ span {
 	border-bottom-width: 1px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-top-color: #CCC;
+	border-top-color: #690;
 	border-bottom-color: #CCC;
 }
 .ca p {
