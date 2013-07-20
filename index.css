@@ -43,39 +43,10 @@ body {
 	height: 16px;
 	clear: both;
 }
-.nav {
-	height: 40px;
-	width: 1002px;
-	margin-top: 10px;
-}
 
 .banneer {
 	margin-bottom: 5px;
 	margin-top: 5px;
-}
-.nav ul li {
-	height: 40px;
-	width: 100px;
-	float: left;
-	list-style-type: none;
-	background-color: #093;
-	margin-right: 2px;
-}
-.nav ul .led {
-	letter-spacing: 8px;
-}
-.nav ul li a {
-	font-size: 18px;
-	text-decoration: none;
-	text-align: center;
-	display: block;
-	height: 40px;
-	width: 100px;
-	line-height: 2.1em;
-	font-weight: bolder;
-}
-.nav ul li a:hover {
-	background-color: #063;
 }
 
 
@@ -253,42 +224,6 @@ span {
 	color: #FFF;
 	text-align: center;
 	line-height: 1.7em;
-}
-
-
-
-/*内页css*/
-.ca {
-	width: 990px;
-	margin-top: 5px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 6px;
-	padding-left: 6px;
-	border-top-width: 3px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #690;
-	border-bottom-color: #CCC;
-}
-.ca p {
-	line-height: 2em;
-	letter-spacing: 1px;
-}
-.ca h1 {
-	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 10px;
-}
-.cen {
-	text-align: center;
-}
-
-
-.ca p img {
-	margin-top: 6px;
-	margin-right: 15px;
 }
 .news ul .aa {
 	list-style-type: none;
