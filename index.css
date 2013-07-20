@@ -7,6 +7,7 @@ body {
 	background-image: url(images/bg-1.jpg);
 	background-repeat: no-repeat;
 }
+
 .box {
 	width: 1002px;
 	margin-top: 2px;
@@ -20,33 +21,66 @@ body {
 .head {
 	height: 100px;
 	width: 1002px;
+	background-image: url(images/headbg.jpg);
 }
 
 .logo {
-	font-size: 36px;
+	font-size: 45px;
 	font-weight: bolder;
-	width: 300px;
-	float: left;
-	margin-top: 26px;
-	margin-left: 200px;
+	width: 350px;
+	margin-left: 170px;
 	color: #30F;
+	height: 50px;
+	float: left;
+	margin-top: 25px;
 }
 .number {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
-	float: left;
 	width: 200px;
-	margin-top: 40px;
-	color: #006;
+	color: #06F;
+	margin-left: 320px;
+	height: 16px;
+	clear: both;
 }
-.xin {
-	float: right;
-	margin-top: 43px;
-}
-.banneer {
-	margin-bottom: 5px;
+.nav {
+	height: 40px;
+	width: 1002px;
 	margin-top: 10px;
 }
+
+.banneer {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.nav ul li {
+	height: 40px;
+	width: 100px;
+	float: left;
+	list-style-type: none;
+	background-color: #093;
+	margin-right: 2px;
+}
+.nav ul .led {
+	letter-spacing: 8px;
+}
+.nav ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 100px;
+	line-height: 2.1em;
+	font-weight: bolder;
+}
+.nav ul li a:hover {
+	background-color: #063;
+}
+
+
+
+
 
 .zhengwen {
 	width: 700px;
@@ -226,7 +260,7 @@ span {
 /*内页css*/
 .ca {
 	width: 990px;
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 6px;
